@@ -1,0 +1,42 @@
+.card-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #ffffff;
+}
+
+
+.img-des {
+  width: 200px;
+  height: 300px;
+}
+
+.play-again-btn {
+  background-color: #ffce27;
+  color: #3d3d3d;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 0 #d9a900;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.play-again-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 0 #d9a900;
+}
+
+.play-again-btn:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 #d9a900;
+}
+
+.play-again-btn:focus-visible {
+  outline: 3px solid #2563eb;
+  outline-offset: 3px;
+}

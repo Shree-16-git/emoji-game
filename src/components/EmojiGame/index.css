@@ -1,0 +1,41 @@
+.bg-cont {
+  background: linear-gradient(#9796f0, #fbc7d4);
+  
+}
+
+.emoji-game-container {
+  display: flex;
+  justify-content: center;
+  padding: 70px 30px 40px;
+}
+
+.emoji-list {
+  display: grid;
+  grid-template-columns: repeat(4, 186px);
+  gap: 14px 12px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+@media (max-width: 850px) {
+  .emoji-list {
+    grid-template-columns: repeat(3, minmax(120px, 186px));
+  }
+
+  .emoji-game-container {
+    padding-top: 45px;
+  }
+}
+
+@media (max-width: 550px) {
+  .emoji-list {
+    grid-template-columns: repeat(3, minmax(80px, 1fr));
+    gap: 10px;
+    width: 100%;
+  }
+
+  .emoji-game-container {
+    padding: 30px 16px;
+  }
+}
